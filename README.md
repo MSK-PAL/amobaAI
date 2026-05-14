@@ -62,5 +62,6 @@ mvn test
 
 ## Generation
 
-This project was generated using **GitHub Copilot** (GPT-4.1, Agent mode).  
+This project was generated using **GitHub Copilot** (GPT-4.1, Agent mode).
+The prompt was generated via Claude Sonnet 4.6 Adaptive model.
 The prompt used for generation is available in [`PROMPT.md`](PROMPT.md).
