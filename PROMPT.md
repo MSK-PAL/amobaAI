@@ -82,13 +82,13 @@ No Hungarian variable names
 Use SwingUtilities.invokeLater for GUI initialization in Main.java
 Use standard Java (no external libraries except JUnit 5 for tests)
 
-## Manual Fixes Applied After Generation
+Generálás Után Elvégzett Kézi Javítások
 
-1. **Moved files to correct Maven structure** – files were generated outside
-   `src/main/java/` and `src/test/java/`, moved manually via IntelliJ Refactor → Move File
+1. Fájlok áthelyezése a helyes Maven struktúrába – a generált fájlok az src/main/java/
+és src/test/java/ mappákon kívülre kerültek; kézzel helyeztük át őket IntelliJ Refactor → Move File funkcióval
 
-2. **Fixed `testCheckWinnerDraw` in `BoardTest.java`** – the generated draw board
-   accidentally contained a winning position; replaced with an ONGOING state test
+2. testCheckWinnerDraw javítása a BoardTest.java-ban – a generált döntetlen tábla
+véletlenül nyerő pozíciót tartalmazott; ONGOING állapot teszttel váltottuk fel.
 
-3. **Fixed `testEvaluateWinLossDraw` in `MiniMaxAITest.java`** – same issue;
-   replaced draw board with empty board (evaluate returns 0 on empty board)
+3. testEvaluateWinLossDraw javítása a MiniMaxAITest.java-ban – ugyanaz a
+probléma; a döntetlen táblát üres táblával váltottuk fel (az evaluate() üres táblán 0-t ad vissza)
