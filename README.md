@@ -1,10 +1,3 @@
-## Generation
-
-A projekt a `PROMPT.md`-ben található prompt segítségével készült,
-**GitHub Copilot Chat** használatával (**GPT-4.1**, Agent módban).
-
-A promptot **Claude Sonnet 4.5** segítségével generáltam.
-
 # Amőba AI – 5x5 Tic-Tac-Toe with Minimax
 
 A Java implementation of a 5x5 Tic-Tac-Toe game with an AI opponent using the Minimax algorithm with Alpha-Beta pruning.
