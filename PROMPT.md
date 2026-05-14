@@ -82,6 +82,8 @@ No Hungarian variable names
 Use SwingUtilities.invokeLater for GUI initialization in Main.java
 Use standard Java (no external libraries except JUnit 5 for tests)
 
+---
+
 Generálás Után Elvégzett Kézi Javítások
 
 1. Fájlok áthelyezése a helyes Maven struktúrába – a generált fájlok az src/main/java/
