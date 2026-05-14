@@ -81,3 +81,14 @@ Every class, method and field must have English Javadoc comments
 No Hungarian variable names
 Use SwingUtilities.invokeLater for GUI initialization in Main.java
 Use standard Java (no external libraries except JUnit 5 for tests)
+
+## Manual Fixes Applied After Generation
+
+1. **Moved files to correct Maven structure** – files were generated outside
+   `src/main/java/` and `src/test/java/`, moved manually via IntelliJ Refactor → Move File
+
+2. **Fixed `testCheckWinnerDraw` in `BoardTest.java`** – the generated draw board
+   accidentally contained a winning position; replaced with an ONGOING state test
+
+3. **Fixed `testEvaluateWinLossDraw` in `MiniMaxAITest.java`** – same issue;
+   replaced draw board with empty board (evaluate returns 0 on empty board)
